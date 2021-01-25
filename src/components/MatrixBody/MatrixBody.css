@@ -1,0 +1,68 @@
+.matrixBody_wrapper {
+    display: flex;
+    margin: 0 auto;
+}
+
+td {
+    border: solid black;
+    cursor: default;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    color: #4c3992;
+}
+
+span {
+    cursor: pointer;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.matrixBody_wrapper_btn {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.matrixBody_btn_dlt,
+.matrixBody_btn_add {
+    border: none;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    opacity: 0.7;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    cursor: pointer;
+}
+
+.matrixBody_btn_dlt {
+    background-image: url('../../assets/img/icons/dlt.svg');
+}
+
+.matrixBody_btn_add {
+    background-image: url('../../assets/img/icons/add.svg');
+}
+
+.matrixBody_btn_dlt:hover,
+.matrixBody_btn_add:hover {
+    opacity: 1;
+}
+
+.matrixBody_cell_hover {
+    background-color: #7fc4fd;
+}
+
+.matixBody_cell_hover_percent {
+    background-color: #87CEFA;
+}
+
+.matixBody_cell_hover_generally_percent {
+    background-color: #63addb;
+}
+
